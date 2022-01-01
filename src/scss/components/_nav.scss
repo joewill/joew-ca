@@ -23,7 +23,7 @@
 
     a {
       color: currentColor;
-
+      text-transform: uppercase;
       @include apply-utility('weight', 'mid');
 
       &:not(:hover) {
